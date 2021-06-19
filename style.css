@@ -34,6 +34,7 @@ body {
 }
 .texts {
     display: flex;
+    margin-top: 10px;
 }
 .date-fruit {
     font-size: 12px; 
@@ -42,10 +43,72 @@ body {
 .texts img{
     width: 35%;
 } 
-.page-one {
-    font-size: 12px;
+.page-one, .most {
+    font-size: 13px;
     color: rgb(138, 135, 135);
 }
 .proof {
     font-size: 15px;
+}
+.director {
+    width: 100%;
+}
+.direct {
+    font-size: 15px;
+    text-align: left;
+}
+.lorem {
+    font-size: 11px;
+    color: rgb(138, 135, 135);
+}
+.btn-two {
+    background-color: white;
+    border: solid rgb(207, 23, 85);
+    color: rgb(207, 23, 85);
+    font-size: 12px;
+    font-weight: bolder;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: rgb(66, 65, 65);
+    margin-top: 20px;
+    padding-top: 25px;
+}
+.footer-left {
+    width: 100%;
+}
+.footer-text {
+    padding-left: 8px;
+    font-size: 12px;
+    color: rgb(138, 135, 135);
+}
+.footer-latest {
+    font-size: 13px;
+    color: white;
+}
+.info {
+    font-size: 12px;
+    color: rgb(138, 135, 135);
+}
+.final-btn {
+    font-size: 12px;
+    color: rgb(138, 135, 135);
+}
+.final-btn button{
+    background-color: rgb(77, 75, 75);
+    border: none;
+    color: rgb(224, 224, 224);
+}
+.copyright {
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    font-size: 12px;
+    padding-left: 10px;
+    /* width: 100%; */
+}
+.bottom {
+    /* float: center; */
 }
