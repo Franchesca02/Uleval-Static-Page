@@ -7,7 +7,8 @@ body {
     background-image: url("./Images/Red velvet img.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 300px;
+    width: 100%;
+    /* height: 300px; */
 }
 .fitness {
     background-color: rgb(128, 197, 238);
@@ -112,3 +113,8 @@ body {
 .bottom {
     /* float: center; */
 }
+.fruits {
+    font-size: 12px; 
+    padding-left: 15px;
+}
+
